@@ -45,22 +45,35 @@
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #ff5733, 1.9%, #, 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #ff5733, 1.9%, #ff5733, 97.5%);
+  background: linear-gradient(
+    to top,
+    #00dbde,
+    #00cfff,
+    #00b8ff,
+    #6a8cff,
+    #fc00ff
+  );
+  background: -webkit-linear-gradient(
+    to top,
+    #00dbde,
+    #00cfff,
+    #00b8ff,
+    #6a8cff,
+    #fc00ff
+  );
 }
 
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(
     to top,
-    #f12711,
-    #f5af19
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #f12711,
-    #f5af19
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    #00dbde,
+    #00cfff,
+    #00b8ff,
+    #6a8cff,
+    #fc00ff
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
